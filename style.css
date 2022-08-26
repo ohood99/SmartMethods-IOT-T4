@@ -1,0 +1,26 @@
+body {
+    background:cadetblue; 
+    color:white;
+    font-size: 16px;
+  }
+   
+   
+  button:focus {
+      outline: 0;
+  }
+   
+  .mycontainer {
+      max-width: 500px;
+      margin: auto;
+      padding: 160px 100px;
+      text-align: center;
+  }
+   
+ 
+@media (max-width: 768px) {
+
+      
+      button {
+          margin-bottom: 10px;
+      }
+    }
